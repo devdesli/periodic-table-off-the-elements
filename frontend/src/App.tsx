@@ -49,7 +49,7 @@ function App() {
             title="Li"
             mass={6.94}
             onHover={() =>
-              setInfo({ title: "Li", mass: 6.94, color: "#b88c2a" })
+              setInfo({ title: "Li", mass: 6.94, color: "#b88c2a", name: ""})
             }
           />
           <Element
@@ -57,7 +57,7 @@ function App() {
             title="Be"
             mass={9.0122}
             onHover={() =>
-              setInfo({ title: "Be", mass: 9.0122, color: "#b88c2a" })
+              setInfo({ title: "Be", mass: 9.0122, color: "#b88c2a", name: "" })
             }
           />
           <div style={{ flex: 2 }} />
@@ -66,7 +66,7 @@ function App() {
             title="B"
             mass={10.811}
             onHover={() =>
-              setInfo({ title: "B", mass: 10.811, color: "#3a6ea5" })
+              setInfo({ title: "B", mass: 10.811, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -74,7 +74,7 @@ function App() {
             title="C"
             mass={12.011}
             onHover={() =>
-              setInfo({ title: "C", mass: 12.011, color: "#3a6ea5" })
+              setInfo({ title: "C", mass: 12.011, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -82,7 +82,7 @@ function App() {
             title="N"
             mass={14.007}
             onHover={() =>
-              setInfo({ title: "N", mass: 14.007, color: "#7bb661" })
+              setInfo({ title: "N", mass: 14.007, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -90,7 +90,7 @@ function App() {
             title="O"
             mass={15.999}
             onHover={() =>
-              setInfo({ title: "O", mass: 15.999, color: "#7bb661" })
+              setInfo({ title: "O", mass: 15.999, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -98,7 +98,7 @@ function App() {
             title="F"
             mass={18.998}
             onHover={() =>
-              setInfo({ title: "F", mass: 18.998, color: "#7bb661" })
+              setInfo({ title: "F", mass: 18.998, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -106,7 +106,7 @@ function App() {
             title="Ne"
             mass={20.18}
             onHover={() =>
-              setInfo({ title: "Ne", mass: 20.18, color: "#b84e6f" })
+              setInfo({ title: "Ne", mass: 20.18, color: "#b84e6f", name: "" })
             }
           />
         </div>
@@ -117,7 +117,7 @@ function App() {
             title="Na"
             mass={22.99}
             onHover={() =>
-              setInfo({ title: "Na", mass: 22.99, color: "#b88c2a" })
+              setInfo({ title: "Na", mass: 22.99, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -125,7 +125,7 @@ function App() {
             title="Mg"
             mass={24.305}
             onHover={() =>
-              setInfo({ title: "Mg", mass: 24.305, color: "#b88c2a" })
+              setInfo({ title: "Mg", mass: 24.305, color: "#b88c2a", name: "" })
             }
           />
           <div style={{ flex: 2 }} />
@@ -134,7 +134,7 @@ function App() {
             title="Al"
             mass={26.982}
             onHover={() =>
-              setInfo({ title: "Al", mass: 26.982, color: "#3a6ea5" })
+              setInfo({ title: "Al", mass: 26.982, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -142,7 +142,7 @@ function App() {
             title="Si"
             mass={28.085}
             onHover={() =>
-              setInfo({ title: "Si", mass: 28.085, color: "#3a6ea5" })
+              setInfo({ title: "Si", mass: 28.085, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -150,7 +150,7 @@ function App() {
             title="P"
             mass={30.974}
             onHover={() =>
-              setInfo({ title: "P", mass: 30.974, color: "#7bb661" })
+              setInfo({ title: "P", mass: 30.974, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -158,7 +158,7 @@ function App() {
             title="S"
             mass={32.06}
             onHover={() =>
-              setInfo({ title: "S", mass: 32.06, color: "#7bb661" })
+              setInfo({ title: "S", mass: 32.06, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -166,7 +166,7 @@ function App() {
             title="Cl"
             mass={35.45}
             onHover={() =>
-              setInfo({ title: "Cl", mass: 35.45, color: "#7bb661" })
+              setInfo({ title: "Cl", mass: 35.45, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -174,7 +174,7 @@ function App() {
             title="Ar"
             mass={39.948}
             onHover={() =>
-              setInfo({ title: "Ar", mass: 39.948, color: "#b84e6f" })
+              setInfo({ title: "Ar", mass: 39.948, color: "#b84e6f", name: "" })
             }
           />
         </div>
@@ -185,7 +185,7 @@ function App() {
             title="K"
             mass={39.098}
             onHover={() =>
-              setInfo({ title: "K", mass: 39.098, color: "#b88c2a" })
+              setInfo({ title: "K", mass: 39.098, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -193,7 +193,7 @@ function App() {
             title="Ca"
             mass={40.078}
             onHover={() =>
-              setInfo({ title: "Ca", mass: 40.078, color: "#b88c2a" })
+              setInfo({ title: "Ca", mass: 40.078, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -201,7 +201,7 @@ function App() {
             title="Sc"
             mass={44.956}
             onHover={() =>
-              setInfo({ title: "Sc", mass: 44.956, color: "#7b6ea5" })
+              setInfo({ title: "Sc", mass: 44.956, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -209,7 +209,7 @@ function App() {
             title="Ti"
             mass={47.867}
             onHover={() =>
-              setInfo({ title: "Ti", mass: 47.867, color: "#7b6ea5" })
+              setInfo({ title: "Ti", mass: 47.867, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -217,7 +217,7 @@ function App() {
             title="V"
             mass={50.942}
             onHover={() =>
-              setInfo({ title: "V", mass: 50.942, color: "#7b6ea5" })
+              setInfo({ title: "V", mass: 50.942, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -225,7 +225,7 @@ function App() {
             title="Cr"
             mass={51.996}
             onHover={() =>
-              setInfo({ title: "Cr", mass: 51.996, color: "#7b6ea5" })
+              setInfo({ title: "Cr", mass: 51.996, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -233,7 +233,7 @@ function App() {
             title="Mn"
             mass={54.938}
             onHover={() =>
-              setInfo({ title: "Mn", mass: 54.938, color: "#7b6ea5" })
+              setInfo({ title: "Mn", mass: 54.938, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -241,7 +241,7 @@ function App() {
             title="Fe"
             mass={55.845}
             onHover={() =>
-              setInfo({ title: "Fe", mass: 55.845, color: "#7b6ea5" })
+              setInfo({ title: "Fe", mass: 55.845, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -249,7 +249,7 @@ function App() {
             title="Co"
             mass={58.933}
             onHover={() =>
-              setInfo({ title: "Co", mass: 58.933, color: "#7b6ea5" })
+              setInfo({ title: "Co", mass: 58.933, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -257,7 +257,7 @@ function App() {
             title="Ni"
             mass={58.693}
             onHover={() =>
-              setInfo({ title: "Ni", mass: 58.693, color: "#7b6ea5" })
+              setInfo({ title: "Ni", mass: 58.693, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -265,7 +265,7 @@ function App() {
             title="Cu"
             mass={63.546}
             onHover={() =>
-              setInfo({ title: "Cu", mass: 63.546, color: "#7b6ea5" })
+              setInfo({ title: "Cu", mass: 63.546, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -273,7 +273,7 @@ function App() {
             title="Zn"
             mass={65.38}
             onHover={() =>
-              setInfo({ title: "Zn", mass: 65.38, color: "#7b6ea5" })
+              setInfo({ title: "Zn", mass: 65.38, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -281,7 +281,7 @@ function App() {
             title="Ga"
             mass={69.723}
             onHover={() =>
-              setInfo({ title: "Ga", mass: 69.723, color: "#3a6ea5" })
+              setInfo({ title: "Ga", mass: 69.723, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -289,7 +289,7 @@ function App() {
             title="Ge"
             mass={72.63}
             onHover={() =>
-              setInfo({ title: "Ge", mass: 72.63, color: "#3a6ea5" })
+              setInfo({ title: "Ge", mass: 72.63, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -297,7 +297,7 @@ function App() {
             title="As"
             mass={74.922}
             onHover={() =>
-              setInfo({ title: "As", mass: 74.922, color: "#7bb661" })
+              setInfo({ title: "As", mass: 74.922, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -305,7 +305,7 @@ function App() {
             title="Se"
             mass={78.971}
             onHover={() =>
-              setInfo({ title: "Se", mass: 78.971, color: "#7bb661" })
+              setInfo({ title: "Se", mass: 78.971, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -313,7 +313,7 @@ function App() {
             title="Br"
             mass={79.904}
             onHover={() =>
-              setInfo({ title: "Br", mass: 79.904, color: "#7bb661" })
+              setInfo({ title: "Br", mass: 79.904, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -321,7 +321,7 @@ function App() {
             title="Kr"
             mass={83.798}
             onHover={() =>
-              setInfo({ title: "Kr", mass: 83.798, color: "#b84e6f" })
+              setInfo({ title: "Kr", mass: 83.798, color: "#b84e6f", name: "" })
             }
           />
         </div>
@@ -332,7 +332,7 @@ function App() {
             title="Rb"
             mass={85.468}
             onHover={() =>
-              setInfo({ title: "Rb", mass: 85.468, color: "#b88c2a" })
+              setInfo({ title: "Rb", mass: 85.468, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -340,7 +340,7 @@ function App() {
             title="Sr"
             mass={87.62}
             onHover={() =>
-              setInfo({ title: "Sr", mass: 87.62, color: "#b88c2a" })
+              setInfo({ title: "Sr", mass: 87.62, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -348,7 +348,7 @@ function App() {
             title="Y"
             mass={88.906}
             onHover={() =>
-              setInfo({ title: "Y", mass: 88.906, color: "#7b6ea5" })
+              setInfo({ title: "Y", mass: 88.906, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -356,7 +356,7 @@ function App() {
             title="Zr"
             mass={91.224}
             onHover={() =>
-              setInfo({ title: "Zr", mass: 91.224, color: "#7b6ea5" })
+              setInfo({ title: "Zr", mass: 91.224, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -364,7 +364,7 @@ function App() {
             title="Nb"
             mass={92.906}
             onHover={() =>
-              setInfo({ title: "Nb", mass: 92.906, color: "#7b6ea5" })
+              setInfo({ title: "Nb", mass: 92.906, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -372,21 +372,21 @@ function App() {
             title="Mo"
             mass={95.95}
             onHover={() =>
-              setInfo({ title: "Mo", mass: 95.95, color: "#7b6ea5" })
+              setInfo({ title: "Mo", mass: 95.95, color: "#7b6ea5", name: "" })
             }
           />
           <Element
             color="#7b6ea5"
             title="Tc"
             mass={98}
-            onHover={() => setInfo({ title: "Tc", mass: 98, color: "#7b6ea5" })}
+            onHover={() => setInfo({ title: "Tc", mass: 98, color: "#7b6ea5", name: "" })}
           />
           <Element
             color="#7b6ea5"
             title="Ru"
             mass={101.07}
             onHover={() =>
-              setInfo({ title: "Ru", mass: 101.07, color: "#7b6ea5" })
+              setInfo({ title: "Ru", mass: 101.07, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -394,7 +394,7 @@ function App() {
             title="Rh"
             mass={102.91}
             onHover={() =>
-              setInfo({ title: "Rh", mass: 102.91, color: "#7b6ea5" })
+              setInfo({ title: "Rh", mass: 102.91, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -402,7 +402,7 @@ function App() {
             title="Pd"
             mass={106.42}
             onHover={() =>
-              setInfo({ title: "Pd", mass: 106.42, color: "#7b6ea5" })
+              setInfo({ title: "Pd", mass: 106.42, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -410,7 +410,7 @@ function App() {
             title="Ag"
             mass={107.87}
             onHover={() =>
-              setInfo({ title: "Ag", mass: 107.87, color: "#7b6ea5" })
+              setInfo({ title: "Ag", mass: 107.87, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -418,7 +418,7 @@ function App() {
             title="Cd"
             mass={112.41}
             onHover={() =>
-              setInfo({ title: "Cd", mass: 112.41, color: "#7b6ea5" })
+              setInfo({ title: "Cd", mass: 112.41, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -426,7 +426,7 @@ function App() {
             title="In"
             mass={114.82}
             onHover={() =>
-              setInfo({ title: "In", mass: 114.82, color: "#3a6ea5" })
+              setInfo({ title: "In", mass: 114.82, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -434,7 +434,7 @@ function App() {
             title="Sn"
             mass={118.71}
             onHover={() =>
-              setInfo({ title: "Sn", mass: 118.71, color: "#3a6ea5" })
+              setInfo({ title: "Sn", mass: 118.71, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -442,7 +442,7 @@ function App() {
             title="Sb"
             mass={121.76}
             onHover={() =>
-              setInfo({ title: "Sb", mass: 121.76, color: "#3a6ea5" })
+              setInfo({ title: "Sb", mass: 121.76, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -450,7 +450,7 @@ function App() {
             title="Te"
             mass={127.6}
             onHover={() =>
-              setInfo({ title: "Te", mass: 127.6, color: "#7bb661" })
+              setInfo({ title: "Te", mass: 127.6, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -458,7 +458,7 @@ function App() {
             title="I"
             mass={126.9}
             onHover={() =>
-              setInfo({ title: "I", mass: 126.9, color: "#7bb661" })
+              setInfo({ title: "I", mass: 126.9, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -466,7 +466,7 @@ function App() {
             title="Xe"
             mass={131.29}
             onHover={() =>
-              setInfo({ title: "Xe", mass: 131.29, color: "#b84e6f" })
+              setInfo({ title: "Xe", mass: 131.29, color: "#b84e6f", name: "" })
             }
           />
         </div>
@@ -477,7 +477,7 @@ function App() {
             title="Cs"
             mass={132.91}
             onHover={() =>
-              setInfo({ title: "Cs", mass: 132.91, color: "#b88c2a" })
+              setInfo({ title: "Cs", mass: 132.91, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -485,7 +485,7 @@ function App() {
             title="Ba"
             mass={137.33}
             onHover={() =>
-              setInfo({ title: "Ba", mass: 137.33, color: "#b88c2a" })
+              setInfo({ title: "Ba", mass: 137.33, color: "#b88c2a", name: "" })
             }
           />
           <div className="d-flex gap-2">
@@ -496,7 +496,7 @@ function App() {
             title="Hf"
             mass={178.49}
             onHover={() =>
-              setInfo({ title: "Hf", mass: 178.49, color: "#7b6ea5" })
+              setInfo({ title: "Hf", mass: 178.49, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -504,7 +504,7 @@ function App() {
             title="Ta"
             mass={180.95}
             onHover={() =>
-              setInfo({ title: "Ta", mass: 180.95, color: "#7b6ea5" })
+              setInfo({ title: "Ta", mass: 180.95, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -512,7 +512,7 @@ function App() {
             title="W"
             mass={183.84}
             onHover={() =>
-              setInfo({ title: "W", mass: 183.84, color: "#7b6ea5" })
+              setInfo({ title: "W", mass: 183.84, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -520,7 +520,7 @@ function App() {
             title="Re"
             mass={186.21}
             onHover={() =>
-              setInfo({ title: "Re", mass: 186.21, color: "#7b6ea5" })
+              setInfo({ title: "Re", mass: 186.21, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -528,7 +528,7 @@ function App() {
             title="Os"
             mass={190.23}
             onHover={() =>
-              setInfo({ title: "Os", mass: 190.23, color: "#7b6ea5" })
+              setInfo({ title: "Os", mass: 190.23, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -536,7 +536,7 @@ function App() {
             title="Ir"
             mass={192.22}
             onHover={() =>
-              setInfo({ title: "Ir", mass: 192.22, color: "#7b6ea5" })
+              setInfo({ title: "Ir", mass: 192.22, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -544,7 +544,7 @@ function App() {
             title="Pt"
             mass={195.08}
             onHover={() =>
-              setInfo({ title: "Pt", mass: 195.08, color: "#7b6ea5" })
+              setInfo({ title: "Pt", mass: 195.08, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -552,7 +552,7 @@ function App() {
             title="Au"
             mass={196.97}
             onHover={() =>
-              setInfo({ title: "Au", mass: 196.97, color: "#7b6ea5" })
+              setInfo({ title: "Au", mass: 196.97, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -560,7 +560,7 @@ function App() {
             title="Hg"
             mass={200.59}
             onHover={() =>
-              setInfo({ title: "Hg", mass: 200.59, color: "#7b6ea5" name: "Hg" })
+              setInfo({ title: "Hg", mass: 200.59, color: "#7b6ea5", name: "Hg" })
             }
           />
           <Element
@@ -568,7 +568,7 @@ function App() {
             title="Tl"
             mass={204.38}
             onHover={() =>
-              setInfo({ title: "Tl", mass: 204.38, color: "#3a6ea5" })
+              setInfo({ title: "Tl", mass: 204.38, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -576,7 +576,7 @@ function App() {
             title="Pb"
             mass={207.2}
             onHover={() =>
-              setInfo({ title: "Pb", mass: 207.2, color: "#3a6ea5" })
+              setInfo({ title: "Pb", mass: 207.2, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -584,7 +584,7 @@ function App() {
             title="Bi"
             mass={208.98}
             onHover={() =>
-              setInfo({ title: "Bi", mass: 208.98, color: "#3a6ea5" })
+              setInfo({ title: "Bi", mass: 208.98, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -592,7 +592,7 @@ function App() {
             title="Po"
             mass={209}
             onHover={() =>
-              setInfo({ title: "Po", mass: 209, color: "#7bb661" })
+              setInfo({ title: "Po", mass: 209, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -600,7 +600,7 @@ function App() {
             title="At"
             mass={210}
             onHover={() =>
-              setInfo({ title: "At", mass: 210, color: "#7bb661" })
+              setInfo({ title: "At", mass: 210, color: "#7bb661", name: "" })
             }
           />
           <Element
@@ -608,7 +608,7 @@ function App() {
             title="Rn"
             mass={222}
             onHover={() =>
-              setInfo({ title: "Rn", mass: 222, color: "#b84e6f" })
+              setInfo({ title: "Rn", mass: 222, color: "#b84e6f", name: "" })
             }
           />
         </div>
@@ -619,7 +619,7 @@ function App() {
             title="Fr"
             mass={223}
             onHover={() =>
-              setInfo({ title: "Fr", mass: 223, color: "#b88c2a" })
+              setInfo({ title: "Fr", mass: 223, color: "#b88c2a", name: "" })
             }
           />
           <Element
@@ -627,7 +627,7 @@ function App() {
             title="Ra"
             mass={226}
             onHover={() =>
-              setInfo({ title: "Ra", mass: 226, color: "#b88c2a" })
+              setInfo({ title: "Ra", mass: 226, color: "#b88c2a", name: "" })
             }
           />
           <div className="d-flex gap-2">
@@ -639,7 +639,7 @@ function App() {
             title="Rf"
             mass={267}
             onHover={() =>
-              setInfo({ title: "Rf", mass: 267, color: "#7b6ea5" })
+              setInfo({ title: "Rf", mass: 267, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -647,7 +647,7 @@ function App() {
             title="Db"
             mass={268}
             onHover={() =>
-              setInfo({ title: "Db", mass: 268, color: "#7b6ea5" })
+              setInfo({ title: "Db", mass: 268, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -655,7 +655,7 @@ function App() {
             title="Sg"
             mass={270}
             onHover={() =>
-              setInfo({ title: "Sg", mass: 270, color: "#7b6ea5" })
+              setInfo({ title: "Sg", mass: 270, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -663,7 +663,7 @@ function App() {
             title="Bh"
             mass={270}
             onHover={() =>
-              setInfo({ title: "Bh", mass: 270, color: "#7b6ea5" })
+              setInfo({ title: "Bh", mass: 270, color: "#7b6ea5", name: ""})
             }
           />
           <Element
@@ -671,7 +671,7 @@ function App() {
             title="Hs"
             mass={277}
             onHover={() =>
-              setInfo({ title: "Hs", mass: 277, color: "#7b6ea5" })
+              setInfo({ title: "Hs", mass: 277, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -679,7 +679,7 @@ function App() {
             title="Mt"
             mass={276}
             onHover={() =>
-              setInfo({ title: "Mt", mass: 276, color: "#7b6ea5" })
+              setInfo({ title: "Mt", mass: 276, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -687,7 +687,7 @@ function App() {
             title="Ds"
             mass={281}
             onHover={() =>
-              setInfo({ title: "Ds", mass: 281, color: "#7b6ea5" })
+              setInfo({ title: "Ds", mass: 281, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -695,7 +695,7 @@ function App() {
             title="Rg"
             mass={282}
             onHover={() =>
-              setInfo({ title: "Rg", mass: 282, color: "#7b6ea5" })
+              setInfo({ title: "Rg", mass: 282, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -703,7 +703,7 @@ function App() {
             title="Cn"
             mass={285}
             onHover={() =>
-              setInfo({ title: "Cn", mass: 285, color: "#7b6ea5" })
+              setInfo({ title: "Cn", mass: 285, color: "#7b6ea5", name: "" })
             }
           />
           <Element
@@ -711,7 +711,7 @@ function App() {
             title="Nh"
             mass={286}
             onHover={() =>
-              setInfo({ title: "Nh", mass: 286, color: "#3a6ea5" })
+              setInfo({ title: "Nh", mass: 286, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -719,7 +719,7 @@ function App() {
             title="Fl"
             mass={289}
             onHover={() =>
-              setInfo({ title: "Fl", mass: 289, color: "#3a6ea5" })
+              setInfo({ title: "Fl", mass: 289, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -727,7 +727,7 @@ function App() {
             title="Mc"
             mass={290}
             onHover={() =>
-              setInfo({ title: "Mc", mass: 290, color: "#3a6ea5" })
+              setInfo({ title: "Mc", mass: 290, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -735,7 +735,7 @@ function App() {
             title="Lv"
             mass={293}
             onHover={() =>
-              setInfo({ title: "Lv", mass: 293, color: "#3a6ea5" })
+              setInfo({ title: "Lv", mass: 293, color: "#3a6ea5", name: "" })
             }
           />
           <Element
@@ -743,7 +743,7 @@ function App() {
             title="Ts"
             mass={294}
             onHover={() =>
-              setInfo({ title: "Ts", mass: 294, color: "#b84e6f" })
+              setInfo({ title: "Ts", mass: 294, color: "#b84e6f", name: "" })
             }
           />
           <Element
@@ -751,7 +751,7 @@ function App() {
             title="Og"
             mass={294}
             onHover={() =>
-              setInfo({ title: "Og", mass: 294, color: "#b84e6f" })
+              setInfo({ title: "Og", mass: 294, color: "#b84e6f", name: "" })
             }
           />
         </div>
@@ -762,26 +762,26 @@ function App() {
             title="La"
             mass={57}
             onHover={() =>
-              setInfo({ title: "La", mass: 57, color: "purple" })
+              setInfo({ title: "La", mass: 57, color: "purple", name: "" })
             }
           ></Element>
           <Element color="purple" title="Ce" mass={57}             onHover={() =>
-              setInfo({ title: "Ce", mass: 57, color: "purple" })
+              setInfo({ title: "Ce", mass: 57, color: "purple", name: "" })
             }></Element>
           <Element color="purple" title="Pr" mass={57}             onHover={() =>
-              setInfo({ title: "Pr", mass: 57, color: "purple" })
+              setInfo({ title: "Pr", mass: 57, color: "purple" , name: ""})
             }></Element>
           <Element color="purple" title="Nd" mass={57}             onHover={() =>
-              setInfo({ title: "Nd", mass: 57, color: "purple" })
+              setInfo({ title: "Nd", mass: 57, color: "purple" , name: ""})
             }></Element>
           <Element color="purple" title="Pm" mass={57}             onHover={() =>
-              setInfo({ title: "Pm", mass: 57, color: "purple" })
+              setInfo({ title: "Pm", mass: 57, color: "purple" , name: ""})
             }></Element>
           <Element color="purple" title="Sm" mass={57}             onHover={() =>
-              setInfo({ title: "Sm", mass: 57, color: "purple" })
+              setInfo({ title: "Sm", mass: 57, color: "purple" , name: ""})
             }></Element>
           <Element color="purple" title="Eu" mass={57}             onHover={() =>
-              setInfo({ title: "Eu", mass: 57, color: "purple" })
+              setInfo({ title: "Eu", mass: 57, color: "purple" , name: ""})
             }></Element>
           <Element color="purple" title="La" mass={57}></Element>
           <Element color="purple" title="La" mass={57}></Element>
@@ -792,20 +792,20 @@ function App() {
           <Element color="purple" title="La" mass={57}></Element>
         </div>
         <div className="d-flex gap-2" style={{ paddingBottom: "10px" }}>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="Ce" mass={57}></Element>
-          <Element color="lightpurple" title="Pr" mass={57}></Element>
-          <Element color="lightpurple" title="Nd" mass={57}></Element>
-          <Element color="lightpurple" title="Pm" mass={57}></Element>
-          <Element color="lightpurple" title="Sm" mass={57}></Element>
-          <Element color="lightpurple" title="Eu" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
-          <Element color="lightpurple" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="Ce" mass={57}></Element>
+          <Element color=" #9370DB" title="Pr" mass={57}></Element>
+          <Element color=" #9370DB" title="Nd" mass={57}></Element>
+          <Element color=" #9370DB" title="Pm" mass={57}></Element>
+          <Element color=" #9370DB" title="Sm" mass={57}></Element>
+          <Element color=" #9370DB" title="Eu" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
+          <Element color=" #9370DB" title="La" mass={57}></Element>
         </div>
       </div>
     </>
