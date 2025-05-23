@@ -1,0 +1,9 @@
+.menu {
+    background-color: aqua;
+    position: fixed;
+    top: 2vh;
+    left: 2vw;
+    width: 95%;
+    border-radius: 10px;
+    z-index: 100000;
+}

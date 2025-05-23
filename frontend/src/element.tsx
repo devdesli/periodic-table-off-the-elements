@@ -1,15 +1,20 @@
-import "./Element.css";
+import "./element.css";
 
 interface Props {
   title: string;
-  mass: number;
+  mass?: number;
   color?: string;
+  onHover?: () => void;
 }
 
-function Element({ title, mass, color }: Props) {
+function Element({ title, mass, color, onHover }: Props) {
   return (
-    <div id="element" className="element"
-      style={{backgroundColor: color,}}>
+    <div
+      id="element"
+      className="element"
+      style={{ backgroundColor: color }}
+      onMouseEnter={onHover}
+    >
       <h2>{title}</h2>
       <p>{mass}</p>
     </div>

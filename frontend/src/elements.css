@@ -1,4 +1,7 @@
 .elements {
   margin-left: 20rem;
-  width: 75%;
+  width: 85%;
+  position: relative;
+  top: 8rem;
+  border: 2px solid red;
 }

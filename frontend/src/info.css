@@ -1,8 +1,9 @@
 .info-container {
     position: fixed;
-    top: 0;
-    left: 1rem;
+    top: 10rem;
+    left: 2rem;
     width: 20rem;
-    height: 75vh;
-    background-color: aqua;
+    height: 60vh;
+    border-radius: 1rem;
+    z-index: 100000;
 }

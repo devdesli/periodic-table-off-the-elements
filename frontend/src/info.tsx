@@ -4,14 +4,16 @@ interface Props {
   title: string;
   mass: number;
   color?: string;
+  // change back to name instead of name? when done with naming 
+  name?: string;
 }
 
-function information({ title, mass, color }: Props) {
+function information({ title, mass, color, name }: Props) {
     return (
     <div className="info-container" style={{backgroundColor: color}}>
       <h1 className="text-center">{title}</h1>
+      <h2 className="text-center">{name}</h2>
       <p className="text-center">{mass}</p>
-      <p className="text-center">Click on an element to see more information.</p>
     </div>
     )
 }
