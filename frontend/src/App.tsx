@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Element from "./element";
 import Information from "./info";
 import "bootstrap/dist/css/bootstrap.min.css";
