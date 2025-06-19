@@ -5,9 +5,21 @@
   background-color: grey;
   min-height: 130vh;
   font-family: Arial, sans-serif;
+  width: 100%;
 }
 
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  #root {
+    padding: 1rem;
+  }
+  body {
+    flex-direction: column;
+  }
+  
 }
